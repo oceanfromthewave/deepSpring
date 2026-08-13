@@ -1,0 +1,4 @@
+app:
+  name: DeepSpring-DEV
+  admin:
+    max-users: 5

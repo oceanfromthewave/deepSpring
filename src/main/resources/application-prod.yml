@@ -1,0 +1,4 @@
+app:
+  name: DeepSpring-PROD
+  admin:
+    max-users: 1000

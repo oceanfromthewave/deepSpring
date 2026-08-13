@@ -1,0 +1,21 @@
+jwt:
+  # 로컬 개발용. 운영에서는 환경변수 JWT_SECRET 으로 반드시 덮어쓸 것
+  secret: local-dev-only-secret-do-not-use-in-production
+  expiration-millis: 60000
+
+app:
+  name: DeepSpring
+  version: 0.1
+  admin:
+    email: admin@deepspring.local
+    max-users: 100
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level [%X{correlationId}] %logger{36} - %msg%n"

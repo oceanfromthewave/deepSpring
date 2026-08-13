@@ -1,0 +1,11 @@
+.git
+.gradle
+.idea
+build
+out
+out-test
+tomcat.8080
+tomcat.8081
+tomcat.18080
+record.md
+CLAUDE.md
